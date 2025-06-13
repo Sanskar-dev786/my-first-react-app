@@ -1,11 +1,13 @@
 import "./App.css";
 import ProductTab from "./ProductTab.jsx";
+import Form from "./Form.jsx";
+
+import Button from "./Botton.jsx";
 
 function App() {
   return (
     <>
-      <h2>Blockbuster Delas | Shop Now</h2>
-      <ProductTab />;
+      <Form />;
     </>
   );
 }
